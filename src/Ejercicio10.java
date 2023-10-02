@@ -16,8 +16,10 @@ public class Ejercicio10 {
 
         Double C = in.nextDouble();
 
-        if ( (A < B) && (B < C) );
-        { System.out.print("Los números están ordenados de menor a mayor.");
-        } else{
+        if (( A < B ) && (B < C)) 
+        {   System.out.println("Los números están ordenados de menor a mayor.");
+        } else {
+            System.out.println("Los números no están ordenados de menor a mayor");
+            }
     }
 }

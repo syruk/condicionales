@@ -1,7 +1,7 @@
 import java.util.Scanner;
-public class Ejercicio10 {
+public class Ejercicio11 {
     public static void main(String[] args) throws Exception {
-    
+        
         Scanner in = new Scanner(System.in);
 
         System.out.println("Introduce un número.");
@@ -16,8 +16,10 @@ public class Ejercicio10 {
 
         Double C = in.nextDouble();
 
-        if ( (A < B) && (B < C) );
-        { System.out.print("Los números están ordenados de menor a mayor.");
-        } else{
-    }
+        if (( B == A + 1 ) && ( C == B + 1 )){
+            System.out.println("Los números son consecutivos.");
+        } else {
+            System.out.println("Los números no son consecutivos");
+        }
+}
 }
